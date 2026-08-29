@@ -16,7 +16,7 @@ This repository contains my internship report, presentation, source code for two
 | **Internship Domain** | Full Stack Development |
 | **Duration** | 4 Weeks (10th July 2026 – 10th August 2026) |
 | **CodeAlpha Student ID** | CA/DF1/194729 |
-| **GitHub** | [prabhat-jha-123] (https://github.com/YourGitHubUsername) |
+| **GitHub** | [prabhat-jha-123] (https://github.com/prabhat-jha-123) |
 
 ## 📌 About the Internship
 
