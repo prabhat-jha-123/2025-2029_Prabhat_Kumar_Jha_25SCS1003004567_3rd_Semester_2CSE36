@@ -12,7 +12,7 @@ This repository contains my internship report, presentation, source code for two
 | **Roll Number** | 25SCS1003004567 |
 | **Section** | 2CSE36 |
 | **Institute** | IILM University, Greater Noida, U.P. |
-| **Programme** | B.Tech CSE, Batch 2024–2028 |
+| **Programme** | B.Tech CSE, Batch 2025–2029 |
 | **Internship Domain** | Full Stack Development |
 | **Duration** | 4 Weeks (10th July 2026 – 10th August 2026) |
 | **CodeAlpha Student ID** | CA/DF1/194729 |
