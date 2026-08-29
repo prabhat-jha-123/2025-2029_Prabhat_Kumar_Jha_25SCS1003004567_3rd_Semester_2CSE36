@@ -1,65 +1,87 @@
-# CodeAlpha_Social_Platform
+# CodeAlpha Full Stack Development Virtual Internship
 
-## Project Description
-This repository contains the source code for the "CampusLoop" Social Media Platform, a full-stack web application developed during the CodeAlpha Virtual Internship Program in Full Stack Development. The project features interactive community feeds, dynamic user profile avatars, and a real-time search interface designed specifically for students.
+**CodeAlpha Virtual Internship Program | Recognized by Ministry of MSME, Govt. of India**
 
-## Features
-*   **Interactive Community Feed:** Users can view, create, and interact with posts within the campus community.
-*   **Premium Navigation Interface:** A responsive and modern navigation bar for seamless user experience.
-*   **Real-time Search:** Search functionality to find posts, circles, or other students quickly.
-*   **Dynamic User Profiles:** Integration of dynamic user avatars and personalized greetings.
-*   **Authentication & Session Management:** Secure login and logout capabilities handling user sessions.
+This repository contains my internship report, presentation, source code for two full-stack web applications, and completion credentials for the Full Stack Development track at CodeAlpha (10th July – 10th August 2026).
 
-## Technologies Used
-*   **Frontend:** HTML5, CSS3, JavaScript (ES6+), DOM Manipulation
-*   **Backend:** Node.js, Express.js (middleware and routing configuration)
-*   **Database:** SQLite (`campusloop.db`)
-*   **Development Tools:** Visual Studio Code (IDE), Git
+## 👤 Student Details
 
-## Setup and Installation
-To run this project locally, follow these steps:
+| Field | Details |
+| :--- | :--- |
+| **Name** | Prabhat Kumar Jha |
+| **Roll Number** | 25SCS1003004567 |
+| **Section** | 2CSE36 |
+| **Institute** | IILM University, Greater Noida, U.P. |
+| **Programme** | B.Tech CSE, Batch 2024–2028 |
+| **Internship Domain** | Full Stack Development |
+| **Duration** | 4 Weeks (10th July 2026 – 10th August 2026) |
+| **CodeAlpha Student ID** | CA/DF1/194729 |
+| **GitHub** | [@YourGitHubUsername](https://github.com/YourGitHubUsername) |
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [repository_url]
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd CodeAlpha_Social_Platform
-    ```
-3.  **Install backend dependencies:**
-    Ensure you have Node.js installed. Then, install the required packages using npm:
-    ```bash
-    cd server
-    npm install
-    ```
-4.  **Configure Environment Variables:**
-    Create a `.env` file in the `server` directory (you can use `.env.example` as a template) and add your environment-specific configurations.
-5.  **Initialize the Database:**
-    The SQLite database (`campusloop.db`) is located in the `server/data` directory. Ensure the server has read/write access to this file.
-6.  **Start the Server:**
-    ```bash
-    npm start
-    ```
-7.  **Access the Application:**
-    Open your web browser and navigate to `http://localhost:[port]` (typically `http://localhost:3000` or the port specified in your `.env` file).
+## 📌 About the Internship
 
-## Project Structure
+The internship focused on building a strong practical foundation in full-stack web development by executing real-world projects from scratch. It followed a task-based, hands-on methodology that required designing, building, documenting, and publishing complete working web applications.
+
+During this internship, two major full-stack tasks were completed:
+1. **Simple E-Commerce Store (ShopKart):** A transactional shopping application with a product catalogue, secure user authentication, database-backed shopping cart, and a stock-validated checkout process.
+2. **Social Media Platform (CampusLoop):** A campus-oriented social network with authentication, a categorised post feed, likes, threaded comments, follow/unfollow relationships, and live search.
+
+**Organization:** CodeAlpha — a software development organization recognized by the Ministry of Micro, Small & Medium Enterprises (MSME), Government of India, focused on equipping students with industry-relevant technical skills.
+
+## 🎯 Objectives
+
+* Build a strong practical foundation in full-stack development and RESTful API integration.
+* Design and deploy a complete E-commerce Store featuring product listings, secure user authentication, and dynamic cart management.
+* Architect a functional Social Media Platform with interactive feeds, search capabilities, and user profile management.
+* Implement secure user registration and login using `bcryptjs` password hashing and server-side sessions.
+* Design and enforce normalised relational schemas using SQLite.
+* Use parameterised prepared statements to prevent SQL injection.
+* Develop a clean, consistent, and responsive user interface using HTML5, CSS3, and Vanilla JavaScript (ES6+).
+
+## 🗓️ Week-wise Curriculum
+
+| Week | Task Focus | Description |
+| :--- | :--- | :--- |
+| **1** | Task 1 (E-Commerce Backend) | Environment setup (Node.js, Express, SQLite). Designed the 5-table relational database schema. Implemented authentication (bcrypt), product listings, and search APIs. |
+| **2** | Task 1 (E-Commerce Frontend) | Developed cart endpoints, atomic checkout logic (stock validation, transaction management), order history. Built responsive UI using HTML/CSS/JS. |
+| **3** | Task 2 (Social Platform Backend) | Database design for CampusLoop (handling likes, comments, follows). Created feed query APIs, post creation/deletion, and relationship endpoints. |
+| **4** | Task 2 (Social Platform Frontend) | Developed a 3-column feed interface, live search box, dynamic avatars, and threaded comments. Final end-to-end testing and deployment to GitHub. |
+| **Final** | Project Documentation | Internship Report writing, code documentation, and final submission. |
+
+*Note: This internship was a task-based learning opportunity.*
+
+## 🛠️ Technologies & Tools
+
+**Frontend:** HTML5 · CSS3 (Flexbox, Grid) · Vanilla JavaScript (ES6+, Fetch API, DOM Manipulation)
+**Backend:** Node.js · Express.js (REST APIs, Middleware, Routing)
+**Database:** SQLite (better-sqlite3)
+**Security:** bcryptjs · express-session (HttpOnly cookies)
+**Tools:** Visual Studio Code · Git · GitHub
+
+## 🏆 Certification & Credentials
+
+| Field | Details |
+| :--- | :--- |
+| **Certificate Title** | Certificate of Completion – Full Stack Development |
+| **Student ID** | CA/DF1/194729 |
+| **Offer Letter Date** | 7th July 2026 |
+| **Certificate Issue Date**| 25th August 2026 |
+| **Issued By** | CodeAlpha, Swati Srivastava (Founder & CEO) |
+
+## 🔗 Reference Links
+
+* **Node.js Documentation:** [https://nodejs.org/docs/latest/api/](https://nodejs.org/docs/latest/api/)
+* **Express.js:** [https://expressjs.com/](https://expressjs.com/)
+* **SQLite:** [https://www.sqlite.org/docs.html](https://www.sqlite.org/docs.html)
+* **CodeAlpha Website:** [https://www.codealpha.tech/](https://www.codealpha.tech/)
+
+## 📁 Repository Contents
+
 ```text
-CodeAlpha_Social_Platform/
-├── public/             # Frontend assets (HTML, CSS, client-side JS, images)
-│   ├── css/            # Stylesheets
-│   ├── images/         # Image assets
-│   ├── js/             # Client-side JavaScript logic (auth.js, feed.js, etc.)
-│   ├── index.html      # Landing page
-│   ├── feed.html       # Main social feed interface
-│   └── ...
-├── server/             # Backend Node.js/Express server
-│   ├── data/           # SQLite database directory
-│   ├── middleware/     # Custom Express middleware
-│   ├── node_modules/   # Node.js dependencies
-│   ├── routes/         # API route definitions
-│   ├── db.js           # Database connection and queries
-│   ├── server.js       # Main server entry point
-│   └── package.json    # Backend project metadata and dependencies
-└── README.md           # Project documentation
+├── CodeAlpha_Ecommerce_Store/               # Source code for Task 1 (ShopKart)
+├── CodeAlpha_Social_Platform/               # Source code for Task 2 (CampusLoop)
+├── Internship_Report_Prabhat_Kumar_Jha.pdf  # Full internship report (IILM format)
+├── CodeAlpha_Internship_Presentation.pptx   # Internship Presentation deck
+├── Certificate_Prabhat_Kumar_Jha.pdf        # Completion certificate
+├── Internship_Offer_Letter.pdf              # CodeAlpha Offer letter
+└── README.md                                # This file
